@@ -1,0 +1,111 @@
+body {
+    margin: 0px;
+    font-family: 'Anton', sans-serif;
+    background-image: url(../images/poker-table-texture.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 50px;
+    color: #F5C400;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #9C800D;
+}
+
+#main-card-div {
+    background-color: #FCFFEB;
+    border: 4px solid #459DF5;
+    border-radius: 15px; 
+    width: 600px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    font-family: 'Anton', sans-serif;
+}
+
+p {
+    font-size: 30px;
+    color: #066BDE;
+}
+
+#start-btn {
+    border: 3px solid #008D46;
+    background-color: #00DC6E;
+    color: #008D46;
+    border-radius: 10px;
+    font-size: 28px;
+}
+
+#start-btn:hover {
+    background-color: #008D46;
+    color: #00DC6E;
+}
+
+#new-game-btn {
+    border: 3px solid #A90808;
+    background-color:#FF5C5C;
+    color: #A90808;
+    border-radius: 10px;
+    font-size: 28px;
+    display: none;
+}
+
+#new-game-btn:hover {
+    background-color: #A90808;
+    color: #FF5C5C;
+}
+
+#new-card-btn {
+    border: 3px solid #1f30c7;
+    background-color:#7d88f1;
+    color: #1f30c7;
+    border-radius: 10px;
+    font-size: 28px;
+    display: none;
+}
+
+#new-card-btn:hover {
+    background-color: #1f30c7;
+    color: #7d88f1;
+}
+
+#fold-btn {
+    border: 3px solid #a09600;
+    background-color:#fff12f;
+    color: #a09600;
+    border-radius: 10px;
+    font-size: 28px;
+    display: none;
+}
+
+#fold-btn:hover {
+    background-color: #a09600;
+    color: #fff12f;
+}
+
+#main-menu-btn {
+    border: 3px solid black;
+    background-color: #FCFFEB;
+    color: black;
+    border-radius: 7px;
+}
+
+#main-menu-btn:hover {
+    background-color: black;
+    color: #FCFFEB;
+}
+
+#fold-message {
+    color: rgb(255, 146, 146);
+}
+
+#win-message {
+    color: rgb(255, 146, 146);
+}

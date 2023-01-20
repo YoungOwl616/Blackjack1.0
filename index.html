@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Blackjack</title>
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="images/blackjack-cards.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="main-card-div">
+            <button id="main-menu-btn" onClick="window.location.reload();">HOME</button>
+
+            <h1>Blackjack</h1>
+
+            <p id="message-el">Want to play a round?</p>
+
+            <p id="fold-message"></p>
+
+            <p id="win-message"></p>
+
+            <p id="cards-el">Cards :  </p>
+
+            <p id="sum-el">Score :  </p>
+
+            <button id="start-btn" onclick="startgame()">START GAME</button>
+
+            <button id="new-card-btn" onclick="newcard()">NEW CARD</button>
+
+            <button id="fold-btn" onclick="fold()">FOLD</button>
+
+            <button id="new-game-btn" onclick="newgame()">NEW GAME</button>
+
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
